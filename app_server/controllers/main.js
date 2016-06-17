@@ -4,5 +4,5 @@
 
 module.exports.index = function (req, res) {
     var message = "hello"
-    res.render('index', {message: 'Hello'});
+    res.render('index', {message: 'Jane'});
 }
